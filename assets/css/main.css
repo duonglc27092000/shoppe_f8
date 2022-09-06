@@ -192,7 +192,8 @@
   height: 200px;
   content: "";
   display: block;
-  /* background-color: #000; */
+  /* background-color: #000;
+   */
 }
 
 .header__qr-img {
@@ -1058,7 +1059,9 @@
 }
 
 /* Home sort + filter */
-
+.select-input ul {
+  z-index: 101;
+}
 .home-filter {
   display: flex;
   align-items: center;
